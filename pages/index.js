@@ -4,7 +4,7 @@ import { titles } from "../helpers/utils";
 export default function Index() {
   return (
     <Layout title={titles.homepage}>
-      <div>Index Page</div>
+      <h1>Index Page</h1>
     </Layout>
   );
 }

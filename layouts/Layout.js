@@ -7,7 +7,7 @@ export default function Layout({ children, title = null }) {
       <Head>
         <title>React SSR {title && `| ${title}`}</title>
       </Head>
-      <div>
+      <nav>
         <Link href={"/about"}>
           <a>About</a>
         </Link>
@@ -17,8 +17,20 @@ export default function Layout({ children, title = null }) {
         <Link href={"/posts-ssr"}>
           <a>Posts SSR</a>
         </Link>
-      </div>
+      </nav>
       <div>{children}</div>
+      <style jsx>{`
+        nav {
+          display: flex;
+          justify-content: space-around;
+          font-size: 26px;
+          background: #8edcff;
+          padding: 30px;
+        }
+        div {
+          font-size: 26px;
+        }
+      `}</style>
     </>
   );
 }

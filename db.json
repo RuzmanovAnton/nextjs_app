@@ -1,0 +1,10 @@
+{
+  "posts": [
+    { "id": 1, "title": "Post 1", "content": "Text post 1: React" },
+    { "id": 2, "title": "Post 2", "content": "Text post 2: SSR" },
+    { "id": 3, "title": "Post 3", "content": "Text post 3: Next" },
+    { "id": 4, "title": "Post 4", "content": "Text post 4: Javascript" },
+    { "id": 5, "title": "Post 5", "content": "Text post 5: CSS" },
+    { "id": 6, "title": "Post 6", "content": "Text post 6: Routing" }
+  ]
+}
